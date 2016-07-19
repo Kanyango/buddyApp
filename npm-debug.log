@@ -1,0 +1,1342 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\My pc\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'express-jwt',
+1 verbose cli   '--save' ]
+2 info using npm@3.8.8
+3 info using node@v4.4.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData express-jwt
+8 silly fetchNamedPackageData express-jwt
+9 silly mapToRegistry name express-jwt
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'express-jwt',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   name: 'express-jwt',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/express-jwt
+14 verbose request uri https://registry.npmjs.org/express-jwt
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 6:39:14 PM
+17 verbose request id 80ea2bdddd3e4440
+18 verbose etag "3YD20DEMOQ9LC9BESQ79TMKTY"
+19 http request GET https://registry.npmjs.org/express-jwt
+20 http 200 https://registry.npmjs.org/express-jwt
+21 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+21 verbose headers   etag: '"CATAZEXJA7JSTWY4I6H6MWIY1"',
+21 verbose headers   'content-type': 'application/json',
+21 verbose headers   'content-encoding': 'gzip',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   'content-length': '8024',
+21 verbose headers   'accept-ranges': 'bytes',
+21 verbose headers   date: 'Tue, 19 Jul 2016 15:36:17 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   age: '133',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-lhr6323-LHR',
+21 verbose headers   'x-cache': 'HIT',
+21 verbose headers   'x-cache-hits': '1',
+21 verbose headers   'x-timer': 'S1468942577.592815,VS0,VE0',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 200,
+22 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+22 silly get     etag: '"CATAZEXJA7JSTWY4I6H6MWIY1"',
+22 silly get     'content-type': 'application/json',
+22 silly get     'content-encoding': 'gzip',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     'content-length': '8024',
+22 silly get     'accept-ranges': 'bytes',
+22 silly get     date: 'Tue, 19 Jul 2016 15:36:17 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     age: '133',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-lhr6323-LHR',
+22 silly get     'x-cache': 'HIT',
+22 silly get     'x-cache-hits': '1',
+22 silly get     'x-timer': 'S1468942577.592815,VS0,VE0',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 verbose get saving express-jwt to C:\Users\My pc\AppData\Roaming\npm-cache\registry.npmjs.org\express-jwt\.cache.json
+24 verbose correctMkdir C:\Users\My pc\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule express-jwt@3.4.0 checking installable status
+38 silly cache add args [ 'express-jwt', null ]
+39 verbose cache add spec express-jwt
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'express-jwt',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'express-jwt',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed express-jwt@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for express-jwt
+43 info addNameTag [ 'express-jwt', 'latest' ]
+44 silly mapToRegistry name express-jwt
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'express-jwt',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   name: 'express-jwt',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/express-jwt
+49 verbose addNameTag registry:https://registry.npmjs.org/express-jwt not in flight; fetching
+50 verbose get https://registry.npmjs.org/express-jwt not expired, no request
+51 silly addNameTag next cb for express-jwt with tag latest
+52 silly addNamed express-jwt@3.4.0
+53 verbose addNamed "3.4.0" is a plain semver version for express-jwt
+54 silly cache afterAdd express-jwt@3.4.0
+55 verbose afterAdd C:\Users\My pc\AppData\Roaming\npm-cache\express-jwt\3.4.0\package\package.json not in flight; writing
+56 verbose correctMkdir C:\Users\My pc\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+57 verbose afterAdd C:\Users\My pc\AppData\Roaming\npm-cache\express-jwt\3.4.0\package\package.json written
+58 silly fetchNamedPackageData express-unless
+59 silly mapToRegistry name express-unless
+60 silly mapToRegistry using default registry
+61 silly mapToRegistry registry https://registry.npmjs.org/
+62 silly mapToRegistry data Result {
+62 silly mapToRegistry   raw: 'express-unless',
+62 silly mapToRegistry   scope: null,
+62 silly mapToRegistry   name: 'express-unless',
+62 silly mapToRegistry   rawSpec: '',
+62 silly mapToRegistry   spec: 'latest',
+62 silly mapToRegistry   type: 'tag' }
+63 silly mapToRegistry uri https://registry.npmjs.org/express-unless
+64 silly fetchNamedPackageData jsonwebtoken
+65 silly mapToRegistry name jsonwebtoken
+66 silly mapToRegistry using default registry
+67 silly mapToRegistry registry https://registry.npmjs.org/
+68 silly mapToRegistry data Result {
+68 silly mapToRegistry   raw: 'jsonwebtoken',
+68 silly mapToRegistry   scope: null,
+68 silly mapToRegistry   name: 'jsonwebtoken',
+68 silly mapToRegistry   rawSpec: '',
+68 silly mapToRegistry   spec: 'latest',
+68 silly mapToRegistry   type: 'tag' }
+69 silly mapToRegistry uri https://registry.npmjs.org/jsonwebtoken
+70 silly fetchNamedPackageData lodash.set
+71 silly mapToRegistry name lodash.set
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://registry.npmjs.org/
+74 silly mapToRegistry data Result {
+74 silly mapToRegistry   raw: 'lodash.set',
+74 silly mapToRegistry   scope: null,
+74 silly mapToRegistry   name: 'lodash.set',
+74 silly mapToRegistry   rawSpec: '',
+74 silly mapToRegistry   spec: 'latest',
+74 silly mapToRegistry   type: 'tag' }
+75 silly mapToRegistry uri https://registry.npmjs.org/lodash.set
+76 verbose request uri https://registry.npmjs.org/jsonwebtoken
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 6:39:19 PM
+79 verbose etag "C1S6QIYOYP8EZAGMN1VK55ION"
+80 http request GET https://registry.npmjs.org/jsonwebtoken
+81 verbose request uri https://registry.npmjs.org/lodash.set
+82 verbose request no auth needed
+83 info attempt registry request try #1 at 6:39:19 PM
+84 verbose etag "82JFWGIGY9JTNNLEYL7XECQMW"
+85 http request GET https://registry.npmjs.org/lodash.set
+86 verbose request uri https://registry.npmjs.org/express-unless
+87 verbose request no auth needed
+88 info attempt registry request try #1 at 6:39:19 PM
+89 verbose etag "5TACYVXDZ19HWL2OPH5BJQRFQ"
+90 http request GET https://registry.npmjs.org/express-unless
+91 http 200 https://registry.npmjs.org/jsonwebtoken
+92 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+92 verbose headers   etag: '"37KKK9XE8NL8735QMVO4LG8KZ"',
+92 verbose headers   'content-type': 'application/json',
+92 verbose headers   'content-encoding': 'gzip',
+92 verbose headers   'cache-control': 'max-age=300',
+92 verbose headers   'content-length': '12923',
+92 verbose headers   'accept-ranges': 'bytes',
+92 verbose headers   date: 'Tue, 19 Jul 2016 15:36:19 GMT',
+92 verbose headers   via: '1.1 varnish',
+92 verbose headers   age: '83',
+92 verbose headers   connection: 'keep-alive',
+92 verbose headers   'x-served-by': 'cache-lhr6323-LHR',
+92 verbose headers   'x-cache': 'HIT',
+92 verbose headers   'x-cache-hits': '2',
+92 verbose headers   'x-timer': 'S1468942579.859761,VS0,VE0',
+92 verbose headers   vary: 'Accept-Encoding' }
+93 silly get cb [ 200,
+93 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+93 silly get     etag: '"37KKK9XE8NL8735QMVO4LG8KZ"',
+93 silly get     'content-type': 'application/json',
+93 silly get     'content-encoding': 'gzip',
+93 silly get     'cache-control': 'max-age=300',
+93 silly get     'content-length': '12923',
+93 silly get     'accept-ranges': 'bytes',
+93 silly get     date: 'Tue, 19 Jul 2016 15:36:19 GMT',
+93 silly get     via: '1.1 varnish',
+93 silly get     age: '83',
+93 silly get     connection: 'keep-alive',
+93 silly get     'x-served-by': 'cache-lhr6323-LHR',
+93 silly get     'x-cache': 'HIT',
+93 silly get     'x-cache-hits': '2',
+93 silly get     'x-timer': 'S1468942579.859761,VS0,VE0',
+93 silly get     vary: 'Accept-Encoding' } ]
+94 verbose get saving jsonwebtoken to C:\Users\My pc\AppData\Roaming\npm-cache\registry.npmjs.org\jsonwebtoken\.cache.json
+95 verbose correctMkdir C:\Users\My pc\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+96 silly resolveWithNewModule jsonwebtoken@5.7.0 checking installable status
+97 silly cache add args [ 'jsonwebtoken@^5.0.0', null ]
+98 verbose cache add spec jsonwebtoken@^5.0.0
+99 silly cache add parsed spec Result {
+99 silly cache add   raw: 'jsonwebtoken@^5.0.0',
+99 silly cache add   scope: null,
+99 silly cache add   name: 'jsonwebtoken',
+99 silly cache add   rawSpec: '^5.0.0',
+99 silly cache add   spec: '>=5.0.0 <6.0.0',
+99 silly cache add   type: 'range' }
+100 silly addNamed jsonwebtoken@>=5.0.0 <6.0.0
+101 verbose addNamed ">=5.0.0 <6.0.0" is a valid semver range for jsonwebtoken
+102 silly addNameRange { name: 'jsonwebtoken', range: '>=5.0.0 <6.0.0', hasData: false }
+103 silly mapToRegistry name jsonwebtoken
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://registry.npmjs.org/
+106 silly mapToRegistry data Result {
+106 silly mapToRegistry   raw: 'jsonwebtoken',
+106 silly mapToRegistry   scope: null,
+106 silly mapToRegistry   name: 'jsonwebtoken',
+106 silly mapToRegistry   rawSpec: '',
+106 silly mapToRegistry   spec: 'latest',
+106 silly mapToRegistry   type: 'tag' }
+107 silly mapToRegistry uri https://registry.npmjs.org/jsonwebtoken
+108 verbose addNameRange registry:https://registry.npmjs.org/jsonwebtoken not in flight; fetching
+109 verbose get https://registry.npmjs.org/jsonwebtoken not expired, no request
+110 silly addNameRange number 2 { name: 'jsonwebtoken', range: '>=5.0.0 <6.0.0', hasData: true }
+111 silly addNameRange versions [ 'jsonwebtoken',
+111 silly addNameRange   [ '0.1.0',
+111 silly addNameRange     '0.2.0',
+111 silly addNameRange     '0.3.0',
+111 silly addNameRange     '0.4.0',
+111 silly addNameRange     '0.4.1',
+111 silly addNameRange     '1.0.0',
+111 silly addNameRange     '1.0.2',
+111 silly addNameRange     '1.1.0',
+111 silly addNameRange     '1.1.1',
+111 silly addNameRange     '1.1.2',
+111 silly addNameRange     '1.2.0',
+111 silly addNameRange     '1.3.0',
+111 silly addNameRange     '2.0.0',
+111 silly addNameRange     '3.0.0',
+111 silly addNameRange     '3.1.0',
+111 silly addNameRange     '3.1.1',
+111 silly addNameRange     '3.2.0',
+111 silly addNameRange     '3.2.1',
+111 silly addNameRange     '3.2.2',
+111 silly addNameRange     '4.0.0',
+111 silly addNameRange     '4.1.0',
+111 silly addNameRange     '4.2.0',
+111 silly addNameRange     '4.2.1',
+111 silly addNameRange     '4.2.2',
+111 silly addNameRange     '5.0.0',
+111 silly addNameRange     '5.0.1',
+111 silly addNameRange     '5.0.2',
+111 silly addNameRange     '5.0.3',
+111 silly addNameRange     '5.0.4',
+111 silly addNameRange     '5.0.5',
+111 silly addNameRange     '5.1.0',
+111 silly addNameRange     '5.2.0',
+111 silly addNameRange     '5.3.1',
+111 silly addNameRange     '5.4.0',
+111 silly addNameRange     '5.4.1',
+111 silly addNameRange     '5.5.0',
+111 silly addNameRange     '5.5.1',
+111 silly addNameRange     '5.5.2',
+111 silly addNameRange     '5.5.3',
+111 silly addNameRange     '5.5.4',
+111 silly addNameRange     '5.6.0',
+111 silly addNameRange     '5.6.2',
+111 silly addNameRange     '5.7.0',
+111 silly addNameRange     '6.0.0',
+111 silly addNameRange     '6.0.1',
+111 silly addNameRange     '6.1.0',
+111 silly addNameRange     '6.1.1',
+111 silly addNameRange     '6.1.2',
+111 silly addNameRange     '6.2.0',
+111 silly addNameRange     '7.0.0',
+111 silly addNameRange     '7.0.1',
+111 silly addNameRange     '7.1.0',
+111 silly addNameRange     '7.1.1',
+111 silly addNameRange     '7.1.3',
+111 silly addNameRange     '7.1.5',
+111 silly addNameRange     '7.1.6' ] ]
+112 silly addNamed jsonwebtoken@5.7.0
+113 verbose addNamed "5.7.0" is a plain semver version for jsonwebtoken
+114 silly cache afterAdd jsonwebtoken@5.7.0
+115 verbose afterAdd C:\Users\My pc\AppData\Roaming\npm-cache\jsonwebtoken\5.7.0\package\package.json not in flight; writing
+116 verbose correctMkdir C:\Users\My pc\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+117 verbose afterAdd C:\Users\My pc\AppData\Roaming\npm-cache\jsonwebtoken\5.7.0\package\package.json written
+118 http 200 https://registry.npmjs.org/express-unless
+119 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+119 verbose headers   etag: '"2IV76GM41Z6AOE8G7K698Z6I0"',
+119 verbose headers   'content-type': 'application/json',
+119 verbose headers   'content-encoding': 'gzip',
+119 verbose headers   'cache-control': 'max-age=300',
+119 verbose headers   'content-length': '2128',
+119 verbose headers   'accept-ranges': 'bytes',
+119 verbose headers   date: 'Tue, 19 Jul 2016 15:36:20 GMT',
+119 verbose headers   via: '1.1 varnish',
+119 verbose headers   age: '141',
+119 verbose headers   connection: 'keep-alive',
+119 verbose headers   'x-served-by': 'cache-lhr6341-LHR',
+119 verbose headers   'x-cache': 'HIT',
+119 verbose headers   'x-cache-hits': '1',
+119 verbose headers   'x-timer': 'S1468942580.472436,VS0,VE0',
+119 verbose headers   vary: 'Accept-Encoding' }
+120 silly get cb [ 200,
+120 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+120 silly get     etag: '"2IV76GM41Z6AOE8G7K698Z6I0"',
+120 silly get     'content-type': 'application/json',
+120 silly get     'content-encoding': 'gzip',
+120 silly get     'cache-control': 'max-age=300',
+120 silly get     'content-length': '2128',
+120 silly get     'accept-ranges': 'bytes',
+120 silly get     date: 'Tue, 19 Jul 2016 15:36:20 GMT',
+120 silly get     via: '1.1 varnish',
+120 silly get     age: '141',
+120 silly get     connection: 'keep-alive',
+120 silly get     'x-served-by': 'cache-lhr6341-LHR',
+120 silly get     'x-cache': 'HIT',
+120 silly get     'x-cache-hits': '1',
+120 silly get     'x-timer': 'S1468942580.472436,VS0,VE0',
+120 silly get     vary: 'Accept-Encoding' } ]
+121 verbose get saving express-unless to C:\Users\My pc\AppData\Roaming\npm-cache\registry.npmjs.org\express-unless\.cache.json
+122 verbose correctMkdir C:\Users\My pc\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+123 http 304 https://registry.npmjs.org/lodash.set
+124 verbose headers { date: 'Tue, 19 Jul 2016 15:36:20 GMT',
+124 verbose headers   via: '1.1 varnish',
+124 verbose headers   'cache-control': 'max-age=300',
+124 verbose headers   etag: '"82JFWGIGY9JTNNLEYL7XECQMW"',
+124 verbose headers   age: '0',
+124 verbose headers   connection: 'keep-alive',
+124 verbose headers   'x-served-by': 'cache-lhr6333-LHR',
+124 verbose headers   'x-cache': 'MISS',
+124 verbose headers   'x-cache-hits': '0',
+124 verbose headers   'x-timer': 'S1468942580.473402,VS0,VE190',
+124 verbose headers   vary: 'Accept-Encoding' }
+125 silly get cb [ 304,
+125 silly get   { date: 'Tue, 19 Jul 2016 15:36:20 GMT',
+125 silly get     via: '1.1 varnish',
+125 silly get     'cache-control': 'max-age=300',
+125 silly get     etag: '"82JFWGIGY9JTNNLEYL7XECQMW"',
+125 silly get     age: '0',
+125 silly get     connection: 'keep-alive',
+125 silly get     'x-served-by': 'cache-lhr6333-LHR',
+125 silly get     'x-cache': 'MISS',
+125 silly get     'x-cache-hits': '0',
+125 silly get     'x-timer': 'S1468942580.473402,VS0,VE190',
+125 silly get     vary: 'Accept-Encoding' } ]
+126 verbose etag https://registry.npmjs.org/lodash.set from cache
+127 verbose get saving lodash.set to C:\Users\My pc\AppData\Roaming\npm-cache\registry.npmjs.org\lodash.set\.cache.json
+128 verbose correctMkdir C:\Users\My pc\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+129 silly resolveWithNewModule express-unless@0.3.0 checking installable status
+130 silly cache add args [ 'express-unless@^0.3.0', null ]
+131 verbose cache add spec express-unless@^0.3.0
+132 silly cache add parsed spec Result {
+132 silly cache add   raw: 'express-unless@^0.3.0',
+132 silly cache add   scope: null,
+132 silly cache add   name: 'express-unless',
+132 silly cache add   rawSpec: '^0.3.0',
+132 silly cache add   spec: '>=0.3.0 <0.4.0',
+132 silly cache add   type: 'range' }
+133 silly addNamed express-unless@>=0.3.0 <0.4.0
+134 verbose addNamed ">=0.3.0 <0.4.0" is a valid semver range for express-unless
+135 silly addNameRange { name: 'express-unless',
+135 silly addNameRange   range: '>=0.3.0 <0.4.0',
+135 silly addNameRange   hasData: false }
+136 silly mapToRegistry name express-unless
+137 silly mapToRegistry using default registry
+138 silly mapToRegistry registry https://registry.npmjs.org/
+139 silly mapToRegistry data Result {
+139 silly mapToRegistry   raw: 'express-unless',
+139 silly mapToRegistry   scope: null,
+139 silly mapToRegistry   name: 'express-unless',
+139 silly mapToRegistry   rawSpec: '',
+139 silly mapToRegistry   spec: 'latest',
+139 silly mapToRegistry   type: 'tag' }
+140 silly mapToRegistry uri https://registry.npmjs.org/express-unless
+141 verbose addNameRange registry:https://registry.npmjs.org/express-unless not in flight; fetching
+142 verbose get https://registry.npmjs.org/express-unless not expired, no request
+143 silly addNameRange number 2 { name: 'express-unless',
+143 silly addNameRange   range: '>=0.3.0 <0.4.0',
+143 silly addNameRange   hasData: true }
+144 silly addNameRange versions [ 'express-unless', [ '0.0.0', '0.1.0', '0.1.1', '0.3.0' ] ]
+145 silly addNamed express-unless@0.3.0
+146 verbose addNamed "0.3.0" is a plain semver version for express-unless
+147 silly cache afterAdd express-unless@0.3.0
+148 verbose afterAdd C:\Users\My pc\AppData\Roaming\npm-cache\express-unless\0.3.0\package\package.json not in flight; writing
+149 verbose correctMkdir C:\Users\My pc\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+150 verbose afterAdd C:\Users\My pc\AppData\Roaming\npm-cache\express-unless\0.3.0\package\package.json written
+151 silly resolveWithNewModule lodash.set@4.2.0 checking installable status
+152 silly cache add args [ 'lodash.set@^4.0.0', null ]
+153 verbose cache add spec lodash.set@^4.0.0
+154 silly cache add parsed spec Result {
+154 silly cache add   raw: 'lodash.set@^4.0.0',
+154 silly cache add   scope: null,
+154 silly cache add   name: 'lodash.set',
+154 silly cache add   rawSpec: '^4.0.0',
+154 silly cache add   spec: '>=4.0.0 <5.0.0',
+154 silly cache add   type: 'range' }
+155 silly addNamed lodash.set@>=4.0.0 <5.0.0
+156 verbose addNamed ">=4.0.0 <5.0.0" is a valid semver range for lodash.set
+157 silly addNameRange { name: 'lodash.set', range: '>=4.0.0 <5.0.0', hasData: false }
+158 silly mapToRegistry name lodash.set
+159 silly mapToRegistry using default registry
+160 silly mapToRegistry registry https://registry.npmjs.org/
+161 silly mapToRegistry data Result {
+161 silly mapToRegistry   raw: 'lodash.set',
+161 silly mapToRegistry   scope: null,
+161 silly mapToRegistry   name: 'lodash.set',
+161 silly mapToRegistry   rawSpec: '',
+161 silly mapToRegistry   spec: 'latest',
+161 silly mapToRegistry   type: 'tag' }
+162 silly mapToRegistry uri https://registry.npmjs.org/lodash.set
+163 verbose addNameRange registry:https://registry.npmjs.org/lodash.set not in flight; fetching
+164 verbose get https://registry.npmjs.org/lodash.set not expired, no request
+165 silly addNameRange number 2 { name: 'lodash.set', range: '>=4.0.0 <5.0.0', hasData: true }
+166 silly addNameRange versions [ 'lodash.set',
+166 silly addNameRange   [ '3.7.0',
+166 silly addNameRange     '3.7.1',
+166 silly addNameRange     '3.7.2',
+166 silly addNameRange     '3.7.3',
+166 silly addNameRange     '3.7.4',
+166 silly addNameRange     '4.0.0',
+166 silly addNameRange     '4.0.1',
+166 silly addNameRange     '4.1.0',
+166 silly addNameRange     '4.2.0' ] ]
+167 silly addNamed lodash.set@4.2.0
+168 verbose addNamed "4.2.0" is a plain semver version for lodash.set
+169 silly cache afterAdd lodash.set@4.2.0
+170 verbose afterAdd C:\Users\My pc\AppData\Roaming\npm-cache\lodash.set\4.2.0\package\package.json not in flight; writing
+171 verbose correctMkdir C:\Users\My pc\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+172 verbose afterAdd C:\Users\My pc\AppData\Roaming\npm-cache\lodash.set\4.2.0\package\package.json written
+173 silly fetchNamedPackageData lodash._baseset
+174 silly mapToRegistry name lodash._baseset
+175 silly mapToRegistry using default registry
+176 silly mapToRegistry registry https://registry.npmjs.org/
+177 silly mapToRegistry data Result {
+177 silly mapToRegistry   raw: 'lodash._baseset',
+177 silly mapToRegistry   scope: null,
+177 silly mapToRegistry   name: 'lodash._baseset',
+177 silly mapToRegistry   rawSpec: '',
+177 silly mapToRegistry   spec: 'latest',
+177 silly mapToRegistry   type: 'tag' }
+178 silly mapToRegistry uri https://registry.npmjs.org/lodash._baseset
+179 verbose request uri https://registry.npmjs.org/lodash._baseset
+180 verbose request no auth needed
+181 info attempt registry request try #1 at 6:39:20 PM
+182 verbose etag "6UP17QTK6089T0YVP2DOVKTN9"
+183 http request GET https://registry.npmjs.org/lodash._baseset
+184 http 304 https://registry.npmjs.org/lodash._baseset
+185 verbose headers { date: 'Tue, 19 Jul 2016 15:36:21 GMT',
+185 verbose headers   via: '1.1 varnish',
+185 verbose headers   'cache-control': 'max-age=300',
+185 verbose headers   etag: '"6UP17QTK6089T0YVP2DOVKTN9"',
+185 verbose headers   age: '0',
+185 verbose headers   connection: 'keep-alive',
+185 verbose headers   'x-served-by': 'cache-lhr6323-LHR',
+185 verbose headers   'x-cache': 'MISS',
+185 verbose headers   'x-cache-hits': '0',
+185 verbose headers   'x-timer': 'S1468942581.448236,VS0,VE188',
+185 verbose headers   vary: 'Accept-Encoding' }
+186 silly get cb [ 304,
+186 silly get   { date: 'Tue, 19 Jul 2016 15:36:21 GMT',
+186 silly get     via: '1.1 varnish',
+186 silly get     'cache-control': 'max-age=300',
+186 silly get     etag: '"6UP17QTK6089T0YVP2DOVKTN9"',
+186 silly get     age: '0',
+186 silly get     connection: 'keep-alive',
+186 silly get     'x-served-by': 'cache-lhr6323-LHR',
+186 silly get     'x-cache': 'MISS',
+186 silly get     'x-cache-hits': '0',
+186 silly get     'x-timer': 'S1468942581.448236,VS0,VE188',
+186 silly get     vary: 'Accept-Encoding' } ]
+187 verbose etag https://registry.npmjs.org/lodash._baseset from cache
+188 verbose get saving lodash._baseset to C:\Users\My pc\AppData\Roaming\npm-cache\registry.npmjs.org\lodash._baseset\.cache.json
+189 verbose correctMkdir C:\Users\My pc\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+190 silly resolveWithNewModule lodash._baseset@4.3.0 checking installable status
+191 silly cache add args [ 'lodash._baseset@~4.3.0', null ]
+192 verbose cache add spec lodash._baseset@~4.3.0
+193 silly cache add parsed spec Result {
+193 silly cache add   raw: 'lodash._baseset@~4.3.0',
+193 silly cache add   scope: null,
+193 silly cache add   name: 'lodash._baseset',
+193 silly cache add   rawSpec: '~4.3.0',
+193 silly cache add   spec: '>=4.3.0 <4.4.0',
+193 silly cache add   type: 'range' }
+194 silly addNamed lodash._baseset@>=4.3.0 <4.4.0
+195 verbose addNamed ">=4.3.0 <4.4.0" is a valid semver range for lodash._baseset
+196 silly addNameRange { name: 'lodash._baseset',
+196 silly addNameRange   range: '>=4.3.0 <4.4.0',
+196 silly addNameRange   hasData: false }
+197 silly mapToRegistry name lodash._baseset
+198 silly mapToRegistry using default registry
+199 silly mapToRegistry registry https://registry.npmjs.org/
+200 silly mapToRegistry data Result {
+200 silly mapToRegistry   raw: 'lodash._baseset',
+200 silly mapToRegistry   scope: null,
+200 silly mapToRegistry   name: 'lodash._baseset',
+200 silly mapToRegistry   rawSpec: '',
+200 silly mapToRegistry   spec: 'latest',
+200 silly mapToRegistry   type: 'tag' }
+201 silly mapToRegistry uri https://registry.npmjs.org/lodash._baseset
+202 verbose addNameRange registry:https://registry.npmjs.org/lodash._baseset not in flight; fetching
+203 verbose get https://registry.npmjs.org/lodash._baseset not expired, no request
+204 silly addNameRange number 2 { name: 'lodash._baseset',
+204 silly addNameRange   range: '>=4.3.0 <4.4.0',
+204 silly addNameRange   hasData: true }
+205 silly addNameRange versions [ 'lodash._baseset',
+205 silly addNameRange   [ '4.0.0',
+205 silly addNameRange     '4.0.1',
+205 silly addNameRange     '4.0.2',
+205 silly addNameRange     '4.1.0',
+205 silly addNameRange     '4.1.1',
+205 silly addNameRange     '4.1.2',
+205 silly addNameRange     '4.1.3',
+205 silly addNameRange     '4.2.0',
+205 silly addNameRange     '4.2.1',
+205 silly addNameRange     '4.3.0' ] ]
+206 silly addNamed lodash._baseset@4.3.0
+207 verbose addNamed "4.3.0" is a plain semver version for lodash._baseset
+208 silly cache afterAdd lodash._baseset@4.3.0
+209 verbose afterAdd C:\Users\My pc\AppData\Roaming\npm-cache\lodash._baseset\4.3.0\package\package.json not in flight; writing
+210 verbose correctMkdir C:\Users\My pc\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+211 verbose afterAdd C:\Users\My pc\AppData\Roaming\npm-cache\lodash._baseset\4.3.0\package\package.json written
+212 silly fetchNamedPackageData lodash._stringtopath
+213 silly mapToRegistry name lodash._stringtopath
+214 silly mapToRegistry using default registry
+215 silly mapToRegistry registry https://registry.npmjs.org/
+216 silly mapToRegistry data Result {
+216 silly mapToRegistry   raw: 'lodash._stringtopath',
+216 silly mapToRegistry   scope: null,
+216 silly mapToRegistry   name: 'lodash._stringtopath',
+216 silly mapToRegistry   rawSpec: '',
+216 silly mapToRegistry   spec: 'latest',
+216 silly mapToRegistry   type: 'tag' }
+217 silly mapToRegistry uri https://registry.npmjs.org/lodash._stringtopath
+218 verbose request uri https://registry.npmjs.org/lodash._stringtopath
+219 verbose request no auth needed
+220 info attempt registry request try #1 at 6:39:21 PM
+221 verbose etag "5FGUB96J202SP8IBWIWUIS5O"
+222 http request GET https://registry.npmjs.org/lodash._stringtopath
+223 http 304 https://registry.npmjs.org/lodash._stringtopath
+224 verbose headers { date: 'Tue, 19 Jul 2016 15:36:22 GMT',
+224 verbose headers   via: '1.1 varnish',
+224 verbose headers   'cache-control': 'max-age=300',
+224 verbose headers   etag: '"5FGUB96J202SP8IBWIWUIS5O"',
+224 verbose headers   age: '258',
+224 verbose headers   connection: 'keep-alive',
+224 verbose headers   'x-served-by': 'cache-lhr6341-LHR',
+224 verbose headers   'x-cache': 'HIT',
+224 verbose headers   'x-cache-hits': '3',
+224 verbose headers   'x-timer': 'S1468942582.164641,VS0,VE0',
+224 verbose headers   vary: 'Accept-Encoding' }
+225 silly get cb [ 304,
+225 silly get   { date: 'Tue, 19 Jul 2016 15:36:22 GMT',
+225 silly get     via: '1.1 varnish',
+225 silly get     'cache-control': 'max-age=300',
+225 silly get     etag: '"5FGUB96J202SP8IBWIWUIS5O"',
+225 silly get     age: '258',
+225 silly get     connection: 'keep-alive',
+225 silly get     'x-served-by': 'cache-lhr6341-LHR',
+225 silly get     'x-cache': 'HIT',
+225 silly get     'x-cache-hits': '3',
+225 silly get     'x-timer': 'S1468942582.164641,VS0,VE0',
+225 silly get     vary: 'Accept-Encoding' } ]
+226 verbose etag https://registry.npmjs.org/lodash._stringtopath from cache
+227 verbose get saving lodash._stringtopath to C:\Users\My pc\AppData\Roaming\npm-cache\registry.npmjs.org\lodash._stringtopath\.cache.json
+228 verbose correctMkdir C:\Users\My pc\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+229 silly resolveWithNewModule lodash._stringtopath@4.8.0 checking installable status
+230 silly cache add args [ 'lodash._stringtopath@~4.8.0', null ]
+231 verbose cache add spec lodash._stringtopath@~4.8.0
+232 silly cache add parsed spec Result {
+232 silly cache add   raw: 'lodash._stringtopath@~4.8.0',
+232 silly cache add   scope: null,
+232 silly cache add   name: 'lodash._stringtopath',
+232 silly cache add   rawSpec: '~4.8.0',
+232 silly cache add   spec: '>=4.8.0 <4.9.0',
+232 silly cache add   type: 'range' }
+233 silly addNamed lodash._stringtopath@>=4.8.0 <4.9.0
+234 verbose addNamed ">=4.8.0 <4.9.0" is a valid semver range for lodash._stringtopath
+235 silly addNameRange { name: 'lodash._stringtopath',
+235 silly addNameRange   range: '>=4.8.0 <4.9.0',
+235 silly addNameRange   hasData: false }
+236 silly mapToRegistry name lodash._stringtopath
+237 silly mapToRegistry using default registry
+238 silly mapToRegistry registry https://registry.npmjs.org/
+239 silly mapToRegistry data Result {
+239 silly mapToRegistry   raw: 'lodash._stringtopath',
+239 silly mapToRegistry   scope: null,
+239 silly mapToRegistry   name: 'lodash._stringtopath',
+239 silly mapToRegistry   rawSpec: '',
+239 silly mapToRegistry   spec: 'latest',
+239 silly mapToRegistry   type: 'tag' }
+240 silly mapToRegistry uri https://registry.npmjs.org/lodash._stringtopath
+241 verbose addNameRange registry:https://registry.npmjs.org/lodash._stringtopath not in flight; fetching
+242 verbose get https://registry.npmjs.org/lodash._stringtopath not expired, no request
+243 silly addNameRange number 2 { name: 'lodash._stringtopath',
+243 silly addNameRange   range: '>=4.8.0 <4.9.0',
+243 silly addNameRange   hasData: true }
+244 silly addNameRange versions [ 'lodash._stringtopath', [ '4.7.0', '4.7.1', '4.8.0' ] ]
+245 silly addNamed lodash._stringtopath@4.8.0
+246 verbose addNamed "4.8.0" is a plain semver version for lodash._stringtopath
+247 silly cache afterAdd lodash._stringtopath@4.8.0
+248 verbose afterAdd C:\Users\My pc\AppData\Roaming\npm-cache\lodash._stringtopath\4.8.0\package\package.json not in flight; writing
+249 verbose correctMkdir C:\Users\My pc\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+250 verbose afterAdd C:\Users\My pc\AppData\Roaming\npm-cache\lodash._stringtopath\4.8.0\package\package.json written
+251 silly fetchNamedPackageData lodash._basetostring
+252 silly mapToRegistry name lodash._basetostring
+253 silly mapToRegistry using default registry
+254 silly mapToRegistry registry https://registry.npmjs.org/
+255 silly mapToRegistry data Result {
+255 silly mapToRegistry   raw: 'lodash._basetostring',
+255 silly mapToRegistry   scope: null,
+255 silly mapToRegistry   name: 'lodash._basetostring',
+255 silly mapToRegistry   rawSpec: '',
+255 silly mapToRegistry   spec: 'latest',
+255 silly mapToRegistry   type: 'tag' }
+256 silly mapToRegistry uri https://registry.npmjs.org/lodash._basetostring
+257 verbose request uri https://registry.npmjs.org/lodash._basetostring
+258 verbose request no auth needed
+259 info attempt registry request try #1 at 6:39:22 PM
+260 verbose etag "BHKCTSYA1JORHFG6DCY0UFUBN"
+261 http request GET https://registry.npmjs.org/lodash._basetostring
+262 http 304 https://registry.npmjs.org/lodash._basetostring
+263 verbose headers { date: 'Tue, 19 Jul 2016 15:36:22 GMT',
+263 verbose headers   via: '1.1 varnish',
+263 verbose headers   'cache-control': 'max-age=300',
+263 verbose headers   etag: '"BHKCTSYA1JORHFG6DCY0UFUBN"',
+263 verbose headers   age: '8',
+263 verbose headers   connection: 'keep-alive',
+263 verbose headers   'x-served-by': 'cache-lhr6333-LHR',
+263 verbose headers   'x-cache': 'HIT',
+263 verbose headers   'x-cache-hits': '4',
+263 verbose headers   'x-timer': 'S1468942582.938346,VS0,VE0',
+263 verbose headers   vary: 'Accept-Encoding' }
+264 silly get cb [ 304,
+264 silly get   { date: 'Tue, 19 Jul 2016 15:36:22 GMT',
+264 silly get     via: '1.1 varnish',
+264 silly get     'cache-control': 'max-age=300',
+264 silly get     etag: '"BHKCTSYA1JORHFG6DCY0UFUBN"',
+264 silly get     age: '8',
+264 silly get     connection: 'keep-alive',
+264 silly get     'x-served-by': 'cache-lhr6333-LHR',
+264 silly get     'x-cache': 'HIT',
+264 silly get     'x-cache-hits': '4',
+264 silly get     'x-timer': 'S1468942582.938346,VS0,VE0',
+264 silly get     vary: 'Accept-Encoding' } ]
+265 verbose etag https://registry.npmjs.org/lodash._basetostring from cache
+266 verbose get saving lodash._basetostring to C:\Users\My pc\AppData\Roaming\npm-cache\registry.npmjs.org\lodash._basetostring\.cache.json
+267 verbose correctMkdir C:\Users\My pc\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+268 silly resolveWithNewModule lodash._basetostring@4.12.0 checking installable status
+269 silly cache add args [ 'lodash._basetostring@~4.12.0', null ]
+270 verbose cache add spec lodash._basetostring@~4.12.0
+271 silly cache add parsed spec Result {
+271 silly cache add   raw: 'lodash._basetostring@~4.12.0',
+271 silly cache add   scope: null,
+271 silly cache add   name: 'lodash._basetostring',
+271 silly cache add   rawSpec: '~4.12.0',
+271 silly cache add   spec: '>=4.12.0 <4.13.0',
+271 silly cache add   type: 'range' }
+272 silly addNamed lodash._basetostring@>=4.12.0 <4.13.0
+273 verbose addNamed ">=4.12.0 <4.13.0" is a valid semver range for lodash._basetostring
+274 silly addNameRange { name: 'lodash._basetostring',
+274 silly addNameRange   range: '>=4.12.0 <4.13.0',
+274 silly addNameRange   hasData: false }
+275 silly mapToRegistry name lodash._basetostring
+276 silly mapToRegistry using default registry
+277 silly mapToRegistry registry https://registry.npmjs.org/
+278 silly mapToRegistry data Result {
+278 silly mapToRegistry   raw: 'lodash._basetostring',
+278 silly mapToRegistry   scope: null,
+278 silly mapToRegistry   name: 'lodash._basetostring',
+278 silly mapToRegistry   rawSpec: '',
+278 silly mapToRegistry   spec: 'latest',
+278 silly mapToRegistry   type: 'tag' }
+279 silly mapToRegistry uri https://registry.npmjs.org/lodash._basetostring
+280 verbose addNameRange registry:https://registry.npmjs.org/lodash._basetostring not in flight; fetching
+281 verbose get https://registry.npmjs.org/lodash._basetostring not expired, no request
+282 silly addNameRange number 2 { name: 'lodash._basetostring',
+282 silly addNameRange   range: '>=4.12.0 <4.13.0',
+282 silly addNameRange   hasData: true }
+283 silly addNameRange versions [ 'lodash._basetostring', [ '3.0.0', '3.0.1', '4.12.0' ] ]
+284 silly addNamed lodash._basetostring@4.12.0
+285 verbose addNamed "4.12.0" is a plain semver version for lodash._basetostring
+286 silly cache afterAdd lodash._basetostring@4.12.0
+287 verbose afterAdd C:\Users\My pc\AppData\Roaming\npm-cache\lodash._basetostring\4.12.0\package\package.json not in flight; writing
+288 verbose correctMkdir C:\Users\My pc\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+289 verbose afterAdd C:\Users\My pc\AppData\Roaming\npm-cache\lodash._basetostring\4.12.0\package\package.json written
+290 silly loadAllDepsIntoIdealTree Finishing
+291 silly idealTree:prePrune buddyApp
+291 silly idealTree:prePrune +-- async@1.5.2
+291 silly idealTree:prePrune +-- base64-url@1.2.2
+291 silly idealTree:prePrune +-- base64url@1.0.6
+291 silly idealTree:prePrune +-- bluebird@3.4.1
+291 silly idealTree:prePrune +-- body-parser@1.15.2
+291 silly idealTree:prePrune +-- bson@0.4.23
+291 silly idealTree:prePrune +-- buffer-equal-constant-time@1.0.1
+291 silly idealTree:prePrune +-- bytes@2.4.0
+291 silly idealTree:prePrune +-- camelcase-keys@1.0.0
+291 silly idealTree:prePrune +-- camelcase@1.2.1
+291 silly idealTree:prePrune +-- cb@0.1.0
+291 silly idealTree:prePrune +-- concat-stream@1.4.10
+291 silly idealTree:prePrune | `-- readable-stream@1.1.14
+291 silly idealTree:prePrune +-- connect-mongo@1.2.1
+291 silly idealTree:prePrune +-- content-type@1.0.2
+291 silly idealTree:prePrune +-- cookie-signature@1.0.6
+291 silly idealTree:prePrune +-- cookie@0.3.1
+291 silly idealTree:prePrune +-- core-util-is@1.0.2
+291 silly idealTree:prePrune +-- crc@3.4.0
+291 silly idealTree:prePrune +-- debug@2.2.0
+291 silly idealTree:prePrune +-- depd@1.1.0
+291 silly idealTree:prePrune +-- ecdsa-sig-formatter@1.0.7
+291 silly idealTree:prePrune +-- ee-first@1.1.1
+291 silly idealTree:prePrune +-- es6-promise@3.0.2
+291 silly idealTree:prePrune +-- express-jwt@3.4.0
+291 silly idealTree:prePrune | `-- jsonwebtoken@5.7.0
+291 silly idealTree:prePrune +-- express-session@1.14.0
+291 silly idealTree:prePrune +-- express-unless@0.3.0
+291 silly idealTree:prePrune +-- get-stdin@4.0.1
+291 silly idealTree:prePrune +-- hoek@2.16.3
+291 silly idealTree:prePrune +-- hooks-fixed@1.1.0
+291 silly idealTree:prePrune +-- http-errors@1.5.0
+291 silly idealTree:prePrune +-- iconv-lite@0.4.13
+291 silly idealTree:prePrune +-- indent-string@1.2.2
+291 silly idealTree:prePrune +-- inherits@2.0.1
+291 silly idealTree:prePrune +-- is-finite@1.0.1
+291 silly idealTree:prePrune +-- isarray@0.0.1
+291 silly idealTree:prePrune +-- isemail@1.2.0
+291 silly idealTree:prePrune +-- joi@6.10.1
+291 silly idealTree:prePrune +-- jsonwebtoken@7.1.6
+291 silly idealTree:prePrune +-- jwa@1.1.3
+291 silly idealTree:prePrune +-- jws@3.1.3
+291 silly idealTree:prePrune +-- kareem@1.1.3
+291 silly idealTree:prePrune +-- lodash._baseset@4.3.0
+291 silly idealTree:prePrune +-- lodash._basetostring@4.12.0
+291 silly idealTree:prePrune +-- lodash._stringtopath@4.8.0
+291 silly idealTree:prePrune +-- lodash.set@4.2.0
+291 silly idealTree:prePrune +-- map-obj@1.0.1
+291 silly idealTree:prePrune +-- media-typer@0.3.0
+291 silly idealTree:prePrune +-- meow@2.0.0
+291 silly idealTree:prePrune +-- mime-db@1.23.0
+291 silly idealTree:prePrune +-- mime-types@2.1.11
+291 silly idealTree:prePrune +-- minimist@1.2.0
+291 silly idealTree:prePrune +-- moment@2.14.1
+291 silly idealTree:prePrune +-- mongodb-core@1.3.21
+291 silly idealTree:prePrune +-- mongodb@2.1.21
+291 silly idealTree:prePrune +-- mongoose@4.5.5
+291 silly idealTree:prePrune | +-- mongodb-core@1.3.18
+291 silly idealTree:prePrune | `-- mongodb@2.1.18
+291 silly idealTree:prePrune +-- mpath@0.2.1
+291 silly idealTree:prePrune +-- mpromise@0.5.5
+291 silly idealTree:prePrune +-- mquery@1.11.0
+291 silly idealTree:prePrune | +-- bluebird@2.10.2
+291 silly idealTree:prePrune | `-- sliced@0.0.5
+291 silly idealTree:prePrune +-- ms@0.7.1
+291 silly idealTree:prePrune +-- muri@1.1.0
+291 silly idealTree:prePrune +-- number-is-nan@1.0.0
+291 silly idealTree:prePrune +-- oauth@0.9.14
+291 silly idealTree:prePrune +-- object-assign@1.0.0
+291 silly idealTree:prePrune +-- on-finished@2.3.0
+291 silly idealTree:prePrune +-- on-headers@1.0.1
+291 silly idealTree:prePrune +-- parseurl@1.3.1
+291 silly idealTree:prePrune +-- passport-facebook@2.1.1
+291 silly idealTree:prePrune +-- passport-local@1.0.0
+291 silly idealTree:prePrune +-- passport-oauth1@1.1.0
+291 silly idealTree:prePrune +-- passport-oauth2@1.3.0
+291 silly idealTree:prePrune +-- passport-strategy@1.0.0
+291 silly idealTree:prePrune +-- passport-twitter@1.0.4
+291 silly idealTree:prePrune +-- passport@0.3.2
+291 silly idealTree:prePrune +-- pause@0.0.1
+291 silly idealTree:prePrune +-- qs@6.2.0
+291 silly idealTree:prePrune +-- random-bytes@1.0.0
+291 silly idealTree:prePrune +-- raw-body@2.1.7
+291 silly idealTree:prePrune +-- readable-stream@1.0.31
+291 silly idealTree:prePrune +-- regexp-clone@0.0.1
+291 silly idealTree:prePrune +-- repeating@1.1.3
+291 silly idealTree:prePrune +-- require_optional@1.0.0
+291 silly idealTree:prePrune +-- resolve-from@2.0.0
+291 silly idealTree:prePrune +-- semver@5.3.0
+291 silly idealTree:prePrune +-- setprototypeof@1.0.1
+291 silly idealTree:prePrune +-- sliced@1.0.1
+291 silly idealTree:prePrune +-- statuses@1.3.0
+291 silly idealTree:prePrune +-- string_decoder@0.10.31
+291 silly idealTree:prePrune +-- topo@1.1.0
+291 silly idealTree:prePrune +-- type-is@1.6.13
+291 silly idealTree:prePrune +-- typedarray@0.0.6
+291 silly idealTree:prePrune +-- uid-safe@2.1.1
+291 silly idealTree:prePrune +-- uid2@0.0.3
+291 silly idealTree:prePrune +-- unpipe@1.0.0
+291 silly idealTree:prePrune +-- utils-merge@1.0.0
+291 silly idealTree:prePrune +-- xmldom@0.1.22
+291 silly idealTree:prePrune +-- xtend@4.0.1
+291 silly idealTree:prePrune `-- xtraverse@0.1.0
+292 silly loadIdealTree Finishing
+293 silly currentTree buddyApp
+293 silly currentTree +-- async@1.5.2
+293 silly currentTree +-- base64-url@1.2.2
+293 silly currentTree +-- base64url@1.0.6
+293 silly currentTree +-- bluebird@3.4.1
+293 silly currentTree +-- body-parser@1.15.2
+293 silly currentTree +-- bson@0.4.23
+293 silly currentTree +-- buffer-equal-constant-time@1.0.1
+293 silly currentTree +-- bytes@2.4.0
+293 silly currentTree +-- camelcase-keys@1.0.0
+293 silly currentTree +-- camelcase@1.2.1
+293 silly currentTree +-- cb@0.1.0
+293 silly currentTree +-- concat-stream@1.4.10
+293 silly currentTree | `-- readable-stream@1.1.14
+293 silly currentTree +-- connect-mongo@1.2.1
+293 silly currentTree +-- content-type@1.0.2
+293 silly currentTree +-- cookie-signature@1.0.6
+293 silly currentTree +-- cookie@0.3.1
+293 silly currentTree +-- core-util-is@1.0.2
+293 silly currentTree +-- crc@3.4.0
+293 silly currentTree +-- debug@2.2.0
+293 silly currentTree +-- depd@1.1.0
+293 silly currentTree +-- ecdsa-sig-formatter@1.0.7
+293 silly currentTree +-- ee-first@1.1.1
+293 silly currentTree +-- es6-promise@3.0.2
+293 silly currentTree +-- express-session@1.14.0
+293 silly currentTree +-- get-stdin@4.0.1
+293 silly currentTree +-- hoek@2.16.3
+293 silly currentTree +-- hooks-fixed@1.1.0
+293 silly currentTree +-- http-errors@1.5.0
+293 silly currentTree +-- iconv-lite@0.4.13
+293 silly currentTree +-- indent-string@1.2.2
+293 silly currentTree +-- inherits@2.0.1
+293 silly currentTree +-- is-finite@1.0.1
+293 silly currentTree +-- isarray@0.0.1
+293 silly currentTree +-- isemail@1.2.0
+293 silly currentTree +-- joi@6.10.1
+293 silly currentTree +-- jsonwebtoken@7.1.6
+293 silly currentTree +-- jwa@1.1.3
+293 silly currentTree +-- jws@3.1.3
+293 silly currentTree +-- kareem@1.1.3
+293 silly currentTree +-- map-obj@1.0.1
+293 silly currentTree +-- media-typer@0.3.0
+293 silly currentTree +-- meow@2.0.0
+293 silly currentTree +-- mime-db@1.23.0
+293 silly currentTree +-- mime-types@2.1.11
+293 silly currentTree +-- minimist@1.2.0
+293 silly currentTree +-- moment@2.14.1
+293 silly currentTree +-- mongodb-core@1.3.21
+293 silly currentTree +-- mongodb@2.1.21
+293 silly currentTree +-- mongoose@4.5.5
+293 silly currentTree | +-- mongodb-core@1.3.18
+293 silly currentTree | `-- mongodb@2.1.18
+293 silly currentTree +-- mpath@0.2.1
+293 silly currentTree +-- mpromise@0.5.5
+293 silly currentTree +-- mquery@1.11.0
+293 silly currentTree | +-- bluebird@2.10.2
+293 silly currentTree | `-- sliced@0.0.5
+293 silly currentTree +-- ms@0.7.1
+293 silly currentTree +-- muri@1.1.0
+293 silly currentTree +-- number-is-nan@1.0.0
+293 silly currentTree +-- oauth@0.9.14
+293 silly currentTree +-- object-assign@1.0.0
+293 silly currentTree +-- on-finished@2.3.0
+293 silly currentTree +-- on-headers@1.0.1
+293 silly currentTree +-- parseurl@1.3.1
+293 silly currentTree +-- passport-facebook@2.1.1
+293 silly currentTree +-- passport-local@1.0.0
+293 silly currentTree +-- passport-oauth1@1.1.0
+293 silly currentTree +-- passport-oauth2@1.3.0
+293 silly currentTree +-- passport-strategy@1.0.0
+293 silly currentTree +-- passport-twitter@1.0.4
+293 silly currentTree +-- passport@0.3.2
+293 silly currentTree +-- pause@0.0.1
+293 silly currentTree +-- qs@6.2.0
+293 silly currentTree +-- random-bytes@1.0.0
+293 silly currentTree +-- raw-body@2.1.7
+293 silly currentTree +-- readable-stream@1.0.31
+293 silly currentTree +-- regexp-clone@0.0.1
+293 silly currentTree +-- repeating@1.1.3
+293 silly currentTree +-- require_optional@1.0.0
+293 silly currentTree +-- resolve-from@2.0.0
+293 silly currentTree +-- semver@5.3.0
+293 silly currentTree +-- setprototypeof@1.0.1
+293 silly currentTree +-- sliced@1.0.1
+293 silly currentTree +-- statuses@1.3.0
+293 silly currentTree +-- string_decoder@0.10.31
+293 silly currentTree +-- topo@1.1.0
+293 silly currentTree +-- type-is@1.6.13
+293 silly currentTree +-- typedarray@0.0.6
+293 silly currentTree +-- uid-safe@2.1.1
+293 silly currentTree +-- uid2@0.0.3
+293 silly currentTree +-- unpipe@1.0.0
+293 silly currentTree +-- utils-merge@1.0.0
+293 silly currentTree +-- xmldom@0.1.22
+293 silly currentTree +-- xtend@4.0.1
+293 silly currentTree `-- xtraverse@0.1.0
+294 silly idealTree buddyApp
+294 silly idealTree +-- async@1.5.2
+294 silly idealTree +-- base64-url@1.2.2
+294 silly idealTree +-- base64url@1.0.6
+294 silly idealTree +-- bluebird@3.4.1
+294 silly idealTree +-- body-parser@1.15.2
+294 silly idealTree +-- bson@0.4.23
+294 silly idealTree +-- buffer-equal-constant-time@1.0.1
+294 silly idealTree +-- bytes@2.4.0
+294 silly idealTree +-- camelcase-keys@1.0.0
+294 silly idealTree +-- camelcase@1.2.1
+294 silly idealTree +-- cb@0.1.0
+294 silly idealTree +-- concat-stream@1.4.10
+294 silly idealTree | `-- readable-stream@1.1.14
+294 silly idealTree +-- connect-mongo@1.2.1
+294 silly idealTree +-- content-type@1.0.2
+294 silly idealTree +-- cookie-signature@1.0.6
+294 silly idealTree +-- cookie@0.3.1
+294 silly idealTree +-- core-util-is@1.0.2
+294 silly idealTree +-- crc@3.4.0
+294 silly idealTree +-- debug@2.2.0
+294 silly idealTree +-- depd@1.1.0
+294 silly idealTree +-- ecdsa-sig-formatter@1.0.7
+294 silly idealTree +-- ee-first@1.1.1
+294 silly idealTree +-- es6-promise@3.0.2
+294 silly idealTree +-- express-jwt@3.4.0
+294 silly idealTree | `-- jsonwebtoken@5.7.0
+294 silly idealTree +-- express-session@1.14.0
+294 silly idealTree +-- express-unless@0.3.0
+294 silly idealTree +-- get-stdin@4.0.1
+294 silly idealTree +-- hoek@2.16.3
+294 silly idealTree +-- hooks-fixed@1.1.0
+294 silly idealTree +-- http-errors@1.5.0
+294 silly idealTree +-- iconv-lite@0.4.13
+294 silly idealTree +-- indent-string@1.2.2
+294 silly idealTree +-- inherits@2.0.1
+294 silly idealTree +-- is-finite@1.0.1
+294 silly idealTree +-- isarray@0.0.1
+294 silly idealTree +-- isemail@1.2.0
+294 silly idealTree +-- joi@6.10.1
+294 silly idealTree +-- jsonwebtoken@7.1.6
+294 silly idealTree +-- jwa@1.1.3
+294 silly idealTree +-- jws@3.1.3
+294 silly idealTree +-- kareem@1.1.3
+294 silly idealTree +-- lodash._baseset@4.3.0
+294 silly idealTree +-- lodash._basetostring@4.12.0
+294 silly idealTree +-- lodash._stringtopath@4.8.0
+294 silly idealTree +-- lodash.set@4.2.0
+294 silly idealTree +-- map-obj@1.0.1
+294 silly idealTree +-- media-typer@0.3.0
+294 silly idealTree +-- meow@2.0.0
+294 silly idealTree +-- mime-db@1.23.0
+294 silly idealTree +-- mime-types@2.1.11
+294 silly idealTree +-- minimist@1.2.0
+294 silly idealTree +-- moment@2.14.1
+294 silly idealTree +-- mongodb-core@1.3.21
+294 silly idealTree +-- mongodb@2.1.21
+294 silly idealTree +-- mongoose@4.5.5
+294 silly idealTree | +-- mongodb-core@1.3.18
+294 silly idealTree | `-- mongodb@2.1.18
+294 silly idealTree +-- mpath@0.2.1
+294 silly idealTree +-- mpromise@0.5.5
+294 silly idealTree +-- mquery@1.11.0
+294 silly idealTree | +-- bluebird@2.10.2
+294 silly idealTree | `-- sliced@0.0.5
+294 silly idealTree +-- ms@0.7.1
+294 silly idealTree +-- muri@1.1.0
+294 silly idealTree +-- number-is-nan@1.0.0
+294 silly idealTree +-- oauth@0.9.14
+294 silly idealTree +-- object-assign@1.0.0
+294 silly idealTree +-- on-finished@2.3.0
+294 silly idealTree +-- on-headers@1.0.1
+294 silly idealTree +-- parseurl@1.3.1
+294 silly idealTree +-- passport-facebook@2.1.1
+294 silly idealTree +-- passport-local@1.0.0
+294 silly idealTree +-- passport-oauth1@1.1.0
+294 silly idealTree +-- passport-oauth2@1.3.0
+294 silly idealTree +-- passport-strategy@1.0.0
+294 silly idealTree +-- passport-twitter@1.0.4
+294 silly idealTree +-- passport@0.3.2
+294 silly idealTree +-- pause@0.0.1
+294 silly idealTree +-- qs@6.2.0
+294 silly idealTree +-- random-bytes@1.0.0
+294 silly idealTree +-- raw-body@2.1.7
+294 silly idealTree +-- readable-stream@1.0.31
+294 silly idealTree +-- regexp-clone@0.0.1
+294 silly idealTree +-- repeating@1.1.3
+294 silly idealTree +-- require_optional@1.0.0
+294 silly idealTree +-- resolve-from@2.0.0
+294 silly idealTree +-- semver@5.3.0
+294 silly idealTree +-- setprototypeof@1.0.1
+294 silly idealTree +-- sliced@1.0.1
+294 silly idealTree +-- statuses@1.3.0
+294 silly idealTree +-- string_decoder@0.10.31
+294 silly idealTree +-- topo@1.1.0
+294 silly idealTree +-- type-is@1.6.13
+294 silly idealTree +-- typedarray@0.0.6
+294 silly idealTree +-- uid-safe@2.1.1
+294 silly idealTree +-- uid2@0.0.3
+294 silly idealTree +-- unpipe@1.0.0
+294 silly idealTree +-- utils-merge@1.0.0
+294 silly idealTree +-- xmldom@0.1.22
+294 silly idealTree +-- xtend@4.0.1
+294 silly idealTree `-- xtraverse@0.1.0
+295 silly generateActionsToTake Starting
+296 silly install generateActionsToTake
+297 silly generateActionsToTake Finishing
+298 silly diffTrees action count 7
+299 silly diffTrees add jsonwebtoken@5.7.0
+300 silly diffTrees add express-unless@0.3.0
+301 silly diffTrees add lodash._basetostring@4.12.0
+302 silly diffTrees add lodash._stringtopath@4.8.0
+303 silly diffTrees add lodash._baseset@4.3.0
+304 silly diffTrees add lodash.set@4.2.0
+305 silly diffTrees add express-jwt@3.4.0
+306 silly decomposeActions action count 56
+307 silly decomposeActions fetch jsonwebtoken@5.7.0
+308 silly decomposeActions extract jsonwebtoken@5.7.0
+309 silly decomposeActions test jsonwebtoken@5.7.0
+310 silly decomposeActions preinstall jsonwebtoken@5.7.0
+311 silly decomposeActions build jsonwebtoken@5.7.0
+312 silly decomposeActions install jsonwebtoken@5.7.0
+313 silly decomposeActions postinstall jsonwebtoken@5.7.0
+314 silly decomposeActions finalize jsonwebtoken@5.7.0
+315 silly decomposeActions fetch express-unless@0.3.0
+316 silly decomposeActions extract express-unless@0.3.0
+317 silly decomposeActions test express-unless@0.3.0
+318 silly decomposeActions preinstall express-unless@0.3.0
+319 silly decomposeActions build express-unless@0.3.0
+320 silly decomposeActions install express-unless@0.3.0
+321 silly decomposeActions postinstall express-unless@0.3.0
+322 silly decomposeActions finalize express-unless@0.3.0
+323 silly decomposeActions fetch lodash._basetostring@4.12.0
+324 silly decomposeActions extract lodash._basetostring@4.12.0
+325 silly decomposeActions test lodash._basetostring@4.12.0
+326 silly decomposeActions preinstall lodash._basetostring@4.12.0
+327 silly decomposeActions build lodash._basetostring@4.12.0
+328 silly decomposeActions install lodash._basetostring@4.12.0
+329 silly decomposeActions postinstall lodash._basetostring@4.12.0
+330 silly decomposeActions finalize lodash._basetostring@4.12.0
+331 silly decomposeActions fetch lodash._stringtopath@4.8.0
+332 silly decomposeActions extract lodash._stringtopath@4.8.0
+333 silly decomposeActions test lodash._stringtopath@4.8.0
+334 silly decomposeActions preinstall lodash._stringtopath@4.8.0
+335 silly decomposeActions build lodash._stringtopath@4.8.0
+336 silly decomposeActions install lodash._stringtopath@4.8.0
+337 silly decomposeActions postinstall lodash._stringtopath@4.8.0
+338 silly decomposeActions finalize lodash._stringtopath@4.8.0
+339 silly decomposeActions fetch lodash._baseset@4.3.0
+340 silly decomposeActions extract lodash._baseset@4.3.0
+341 silly decomposeActions test lodash._baseset@4.3.0
+342 silly decomposeActions preinstall lodash._baseset@4.3.0
+343 silly decomposeActions build lodash._baseset@4.3.0
+344 silly decomposeActions install lodash._baseset@4.3.0
+345 silly decomposeActions postinstall lodash._baseset@4.3.0
+346 silly decomposeActions finalize lodash._baseset@4.3.0
+347 silly decomposeActions fetch lodash.set@4.2.0
+348 silly decomposeActions extract lodash.set@4.2.0
+349 silly decomposeActions test lodash.set@4.2.0
+350 silly decomposeActions preinstall lodash.set@4.2.0
+351 silly decomposeActions build lodash.set@4.2.0
+352 silly decomposeActions install lodash.set@4.2.0
+353 silly decomposeActions postinstall lodash.set@4.2.0
+354 silly decomposeActions finalize lodash.set@4.2.0
+355 silly decomposeActions fetch express-jwt@3.4.0
+356 silly decomposeActions extract express-jwt@3.4.0
+357 silly decomposeActions test express-jwt@3.4.0
+358 silly decomposeActions preinstall express-jwt@3.4.0
+359 silly decomposeActions build express-jwt@3.4.0
+360 silly decomposeActions install express-jwt@3.4.0
+361 silly decomposeActions postinstall express-jwt@3.4.0
+362 silly decomposeActions finalize express-jwt@3.4.0
+363 silly executeActions Starting
+364 silly install executeActions
+365 silly doSerial global-install 0
+366 silly doParallel fetch 7
+367 verbose correctMkdir C:\Users\My pc\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+368 verbose lock using C:\Users\My pc\AppData\Roaming\npm-cache\_locks\staging-3307e011f556ab78.lock for C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging
+369 silly doParallel extract 7
+370 silly extract jsonwebtoken@5.7.0
+371 silly extract express-unless@0.3.0
+372 silly extract lodash._basetostring@4.12.0
+373 silly extract lodash._stringtopath@4.8.0
+374 silly extract lodash._baseset@4.3.0
+375 silly extract lodash.set@4.2.0
+376 silly extract express-jwt@3.4.0
+377 verbose unbuild node_modules\.staging\jsonwebtoken-173e3696
+378 verbose unbuild node_modules\.staging\lodash._baseset-4085f855
+379 verbose unbuild node_modules\.staging\express-unless-c4a22b23
+380 verbose unbuild node_modules\.staging\lodash.set-b45b1394
+381 silly gentlyRm C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\jsonwebtoken-173e3696 is being purged from base C:\Users\My pc\Music\BuddyApp\buddyApp
+382 verbose gentlyRm don't care about contents; nuking C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\jsonwebtoken-173e3696
+383 silly gentlyRm C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._baseset-4085f855 is being purged from base C:\Users\My pc\Music\BuddyApp\buddyApp
+384 verbose gentlyRm don't care about contents; nuking C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._baseset-4085f855
+385 verbose unbuild node_modules\.staging\express-jwt-6806fb46
+386 silly gentlyRm C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\express-unless-c4a22b23 is being purged from base C:\Users\My pc\Music\BuddyApp\buddyApp
+387 verbose gentlyRm don't care about contents; nuking C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\express-unless-c4a22b23
+388 silly gentlyRm C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash.set-b45b1394 is being purged from base C:\Users\My pc\Music\BuddyApp\buddyApp
+389 verbose gentlyRm don't care about contents; nuking C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash.set-b45b1394
+390 verbose tar unpack C:\Users\My pc\AppData\Roaming\npm-cache\jsonwebtoken\5.7.0\package.tgz
+391 verbose tar unpacking to C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\jsonwebtoken-173e3696
+392 silly gentlyRm C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\jsonwebtoken-173e3696 is being purged
+393 verbose gentlyRm don't care about contents; nuking C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\jsonwebtoken-173e3696
+394 verbose tar unpack C:\Users\My pc\AppData\Roaming\npm-cache\lodash._baseset\4.3.0\package.tgz
+395 verbose tar unpacking to C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._baseset-4085f855
+396 silly gentlyRm C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._baseset-4085f855 is being purged
+397 verbose gentlyRm don't care about contents; nuking C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._baseset-4085f855
+398 verbose tar unpack C:\Users\My pc\AppData\Roaming\npm-cache\express-unless\0.3.0\package.tgz
+399 verbose tar unpacking to C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\express-unless-c4a22b23
+400 silly gentlyRm C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\express-unless-c4a22b23 is being purged
+401 verbose gentlyRm don't care about contents; nuking C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\express-unless-c4a22b23
+402 verbose unbuild node_modules\.staging\lodash._stringtopath-5ed4a9e4
+403 verbose tar unpack C:\Users\My pc\AppData\Roaming\npm-cache\lodash.set\4.2.0\package.tgz
+404 verbose tar unpacking to C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash.set-b45b1394
+405 silly gentlyRm C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash.set-b45b1394 is being purged
+406 verbose gentlyRm don't care about contents; nuking C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash.set-b45b1394
+407 silly gunzTarPerm modes [ '777', '666' ]
+408 silly gunzTarPerm modes [ '777', '666' ]
+409 silly gentlyRm C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\express-jwt-6806fb46 is being purged from base C:\Users\My pc\Music\BuddyApp\buddyApp
+410 verbose gentlyRm don't care about contents; nuking C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\express-jwt-6806fb46
+411 silly gunzTarPerm modes [ '777', '666' ]
+412 silly gunzTarPerm modes [ '777', '666' ]
+413 verbose tar unpack C:\Users\My pc\AppData\Roaming\npm-cache\express-jwt\3.4.0\package.tgz
+414 verbose tar unpacking to C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\express-jwt-6806fb46
+415 silly gentlyRm C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\express-jwt-6806fb46 is being purged
+416 verbose gentlyRm don't care about contents; nuking C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\express-jwt-6806fb46
+417 silly gentlyRm C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._stringtopath-5ed4a9e4 is being purged from base C:\Users\My pc\Music\BuddyApp\buddyApp
+418 verbose gentlyRm don't care about contents; nuking C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._stringtopath-5ed4a9e4
+419 silly gunzTarPerm modes [ '777', '666' ]
+420 verbose tar unpack C:\Users\My pc\AppData\Roaming\npm-cache\lodash._stringtopath\4.8.0\package.tgz
+421 verbose tar unpacking to C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._stringtopath-5ed4a9e4
+422 silly gentlyRm C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._stringtopath-5ed4a9e4 is being purged
+423 verbose gentlyRm don't care about contents; nuking C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._stringtopath-5ed4a9e4
+424 silly gunzTarPerm modes [ '777', '666' ]
+425 verbose unbuild node_modules\.staging\lodash._basetostring-731c1782
+426 silly gunzTarPerm extractEntry package.json
+427 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+428 silly gunzTarPerm extractEntry package.json
+429 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+430 silly gunzTarPerm extractEntry package.json
+431 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+432 silly gunzTarPerm extractEntry package.json
+433 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+434 silly gentlyRm C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._basetostring-731c1782 is being purged from base C:\Users\My pc\Music\BuddyApp\buddyApp
+435 verbose gentlyRm don't care about contents; nuking C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._basetostring-731c1782
+436 silly gunzTarPerm extractEntry package.json
+437 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+438 verbose tar unpack C:\Users\My pc\AppData\Roaming\npm-cache\lodash._basetostring\4.12.0\package.tgz
+439 verbose tar unpacking to C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._basetostring-731c1782
+440 silly gentlyRm C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._basetostring-731c1782 is being purged
+441 verbose gentlyRm don't care about contents; nuking C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._basetostring-731c1782
+442 silly gunzTarPerm extractEntry package.json
+443 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+444 silly gunzTarPerm modes [ '777', '666' ]
+445 silly gunzTarPerm extractEntry .npmignore
+446 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+447 silly gunzTarPerm extractEntry README.md
+448 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+449 silly gunzTarPerm extractEntry README.md
+450 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+451 silly gunzTarPerm extractEntry LICENSE
+452 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+453 silly gunzTarPerm extractEntry .npmignore
+454 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+455 silly gunzTarPerm extractEntry README.md
+456 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+457 silly gunzTarPerm extractEntry README.md
+458 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+459 silly gunzTarPerm extractEntry LICENSE
+460 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+461 silly gunzTarPerm extractEntry .npmignore
+462 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+463 silly gunzTarPerm extractEntry README.md
+464 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+465 silly gunzTarPerm extractEntry README.md
+466 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+467 silly gunzTarPerm extractEntry LICENSE
+468 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+469 silly gunzTarPerm extractEntry package.json
+470 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+471 silly gunzTarPerm extractEntry LICENSE
+472 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+473 silly gunzTarPerm extractEntry index.js
+474 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+475 silly gunzTarPerm extractEntry index.js
+476 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+477 silly gunzTarPerm extractEntry index.js
+478 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+479 silly gunzTarPerm extractEntry test/unless.tests.js
+480 silly gunzTarPerm modified mode [ 'test/unless.tests.js', 420, 438 ]
+481 silly gunzTarPerm extractEntry LICENSE
+482 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+483 silly gunzTarPerm extractEntry .travis.yml
+484 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+485 silly gunzTarPerm extractEntry index.js
+486 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+487 silly gunzTarPerm extractEntry README.md
+488 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+489 silly gunzTarPerm extractEntry LICENSE
+490 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+491 silly gunzTarPerm extractEntry index.js
+492 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+493 silly gunzTarPerm extractEntry .jshintrc
+494 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+495 silly gunzTarPerm extractEntry lib/index.js
+496 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+497 silly gunzTarPerm extractEntry lib/errors/UnauthorizedError.js
+498 silly gunzTarPerm modified mode [ 'lib/errors/UnauthorizedError.js', 420, 438 ]
+499 silly gunzTarPerm extractEntry test/jwt.test.js
+500 silly gunzTarPerm modified mode [ 'test/jwt.test.js', 420, 438 ]
+501 silly gunzTarPerm extractEntry test/multitenancy.test.js
+502 silly gunzTarPerm modified mode [ 'test/multitenancy.test.js', 420, 438 ]
+503 silly gunzTarPerm extractEntry test/revocation.test.js
+504 silly gunzTarPerm modified mode [ 'test/revocation.test.js', 420, 438 ]
+505 silly gunzTarPerm extractEntry test/string_token.test.js
+506 silly gunzTarPerm modified mode [ 'test/string_token.test.js', 420, 438 ]
+507 silly gunzTarPerm extractEntry index.js
+508 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+509 silly gunzTarPerm extractEntry .travis.yml
+510 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+511 silly gunzTarPerm extractEntry lib/JsonWebTokenError.js
+512 silly gunzTarPerm modified mode [ 'lib/JsonWebTokenError.js', 420, 438 ]
+513 silly gunzTarPerm extractEntry lib/NotBeforeError.js
+514 silly gunzTarPerm modified mode [ 'lib/NotBeforeError.js', 420, 438 ]
+515 silly gunzTarPerm extractEntry lib/TokenExpiredError.js
+516 silly gunzTarPerm modified mode [ 'lib/TokenExpiredError.js', 420, 438 ]
+517 silly gunzTarPerm extractEntry lib/timespan.js
+518 silly gunzTarPerm modified mode [ 'lib/timespan.js', 420, 438 ]
+519 silly gunzTarPerm extractEntry CHANGELOG.md
+520 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+521 silly gunzTarPerm extractEntry test/async_sign.tests.js
+522 silly gunzTarPerm modified mode [ 'test/async_sign.tests.js', 420, 438 ]
+523 silly gunzTarPerm extractEntry test/invalid_exp.tests.js
+524 silly gunzTarPerm modified mode [ 'test/invalid_exp.tests.js', 420, 438 ]
+525 silly gunzTarPerm extractEntry test/verify.tests.js
+526 silly gunzTarPerm modified mode [ 'test/verify.tests.js', 420, 438 ]
+527 silly gunzTarPerm extractEntry test/issue_147.tests.js
+528 silly gunzTarPerm modified mode [ 'test/issue_147.tests.js', 420, 438 ]
+529 silly gentlyRm C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._baseset-4085f855\node_modules is being purged
+530 verbose gentlyRm don't care about contents; nuking C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._baseset-4085f855\node_modules
+531 silly gentlyRm C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._stringtopath-5ed4a9e4\node_modules is being purged
+532 verbose gentlyRm don't care about contents; nuking C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._stringtopath-5ed4a9e4\node_modules
+533 silly gentlyRm C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._basetostring-731c1782\node_modules is being purged
+534 verbose gentlyRm don't care about contents; nuking C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._basetostring-731c1782\node_modules
+535 silly gunzTarPerm extractEntry test/issue_70.tests.js
+536 silly gunzTarPerm modified mode [ 'test/issue_70.tests.js', 420, 438 ]
+537 silly gunzTarPerm extractEntry test/expires_format.tests.js
+538 silly gunzTarPerm modified mode [ 'test/expires_format.tests.js', 420, 438 ]
+539 silly gentlyRm C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\express-unless-c4a22b23\node_modules is being purged
+540 verbose gentlyRm don't care about contents; nuking C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\express-unless-c4a22b23\node_modules
+541 silly gentlyRm C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash.set-b45b1394\node_modules is being purged
+542 verbose gentlyRm don't care about contents; nuking C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash.set-b45b1394\node_modules
+543 silly gunzTarPerm extractEntry test/jwt.rs.tests.js
+544 silly gunzTarPerm modified mode [ 'test/jwt.rs.tests.js', 420, 438 ]
+545 silly gunzTarPerm extractEntry test/noTimestamp.tests.js
+546 silly gunzTarPerm modified mode [ 'test/noTimestamp.tests.js', 420, 438 ]
+547 silly gunzTarPerm extractEntry test/encoding.tests.js
+548 silly gunzTarPerm modified mode [ 'test/encoding.tests.js', 420, 438 ]
+549 silly gunzTarPerm extractEntry test/undefined_secretOrPublickey.tests.js
+550 silly gunzTarPerm modified mode [ 'test/undefined_secretOrPublickey.tests.js', 420, 438 ]
+551 silly gunzTarPerm extractEntry test/set_headers.tests.js
+552 silly gunzTarPerm modified mode [ 'test/set_headers.tests.js', 420, 438 ]
+553 silly gunzTarPerm extractEntry test/expiresInSeconds.tests.js
+554 silly gunzTarPerm modified mode [ 'test/expiresInSeconds.tests.js', 420, 438 ]
+555 silly gunzTarPerm extractEntry test/rsa-public-key.tests.js
+556 silly gunzTarPerm modified mode [ 'test/rsa-public-key.tests.js', 420, 438 ]
+557 silly gunzTarPerm extractEntry test/jwt.hs.tests.js
+558 silly gunzTarPerm modified mode [ 'test/jwt.hs.tests.js', 420, 438 ]
+559 silly gunzTarPerm extractEntry test/wrong_alg.tests.js
+560 silly gunzTarPerm modified mode [ 'test/wrong_alg.tests.js', 420, 438 ]
+561 silly gunzTarPerm extractEntry test/non_object_values.tests.js
+562 silly gunzTarPerm modified mode [ 'test/non_object_values.tests.js', 420, 438 ]
+563 silly gunzTarPerm extractEntry test/rsa-public-key.pem
+564 silly gunzTarPerm modified mode [ 'test/rsa-public-key.pem', 420, 438 ]
+565 silly gunzTarPerm extractEntry test/rsa-private.pem
+566 silly gunzTarPerm modified mode [ 'test/rsa-private.pem', 420, 438 ]
+567 silly gunzTarPerm extractEntry test/rsa-public.pem
+568 silly gunzTarPerm modified mode [ 'test/rsa-public.pem', 420, 438 ]
+569 silly gunzTarPerm extractEntry test/pub.pem
+570 silly gunzTarPerm modified mode [ 'test/pub.pem', 420, 438 ]
+571 silly gunzTarPerm extractEntry test/priv.pem
+572 silly gunzTarPerm modified mode [ 'test/priv.pem', 420, 438 ]
+573 silly gunzTarPerm extractEntry test/util/fakeDate.js
+574 silly gunzTarPerm modified mode [ 'test/util/fakeDate.js', 420, 438 ]
+575 silly gunzTarPerm extractEntry test/invalid_pub.pem
+576 silly gunzTarPerm modified mode [ 'test/invalid_pub.pem', 420, 438 ]
+577 silly gentlyRm C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\express-jwt-6806fb46\node_modules is being purged
+578 verbose gentlyRm don't care about contents; nuking C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\express-jwt-6806fb46\node_modules
+579 silly gentlyRm C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\jsonwebtoken-173e3696\node_modules is being purged
+580 verbose gentlyRm don't care about contents; nuking C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\jsonwebtoken-173e3696\node_modules
+581 silly doParallel preinstall 7
+582 silly preinstall jsonwebtoken@5.7.0 C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\jsonwebtoken-173e3696
+583 info lifecycle jsonwebtoken@5.7.0~preinstall: jsonwebtoken@5.7.0
+584 silly preinstall express-unless@0.3.0 C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\express-unless-c4a22b23
+585 info lifecycle express-unless@0.3.0~preinstall: express-unless@0.3.0
+586 silly preinstall lodash._basetostring@4.12.0 C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._basetostring-731c1782
+587 info lifecycle lodash._basetostring@4.12.0~preinstall: lodash._basetostring@4.12.0
+588 silly preinstall lodash._stringtopath@4.8.0 C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._stringtopath-5ed4a9e4
+589 info lifecycle lodash._stringtopath@4.8.0~preinstall: lodash._stringtopath@4.8.0
+590 silly preinstall lodash._baseset@4.3.0 C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash._baseset-4085f855
+591 info lifecycle lodash._baseset@4.3.0~preinstall: lodash._baseset@4.3.0
+592 silly preinstall lodash.set@4.2.0 C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\lodash.set-b45b1394
+593 info lifecycle lodash.set@4.2.0~preinstall: lodash.set@4.2.0
+594 silly preinstall express-jwt@3.4.0 C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\express-jwt-6806fb46
+595 info lifecycle express-jwt@3.4.0~preinstall: express-jwt@3.4.0
+596 silly lifecycle jsonwebtoken@5.7.0~preinstall: no script for preinstall, continuing
+597 silly lifecycle express-unless@0.3.0~preinstall: no script for preinstall, continuing
+598 silly lifecycle lodash._basetostring@4.12.0~preinstall: no script for preinstall, continuing
+599 silly lifecycle lodash._stringtopath@4.8.0~preinstall: no script for preinstall, continuing
+600 silly lifecycle lodash._baseset@4.3.0~preinstall: no script for preinstall, continuing
+601 silly lifecycle lodash.set@4.2.0~preinstall: no script for preinstall, continuing
+602 silly lifecycle express-jwt@3.4.0~preinstall: no script for preinstall, continuing
+603 silly doReverseSerial remove 0
+604 silly doSerial move 0
+605 silly doSerial finalize 7
+606 silly finalize C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\express-jwt\node_modules\jsonwebtoken
+607 verbose unlock done using C:\Users\My pc\AppData\Roaming\npm-cache\_locks\staging-3307e011f556ab78.lock for C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging
+608 silly rollbackFailedOptional Starting
+609 silly rollbackFailedOptional Finishing
+610 silly runTopLevelLifecycles Starting
+611 silly runTopLevelLifecycles Finishing
+612 silly install printInstalled
+613 warn Invalid name: "Buddy App"
+614 warn buddyApp No description
+615 warn buddyApp No repository field.
+616 warn buddyApp No README data
+617 warn buddyApp No license field.
+618 verbose stack Error: EPERM: operation not permitted, rename 'C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\jsonwebtoken-173e3696' -> 'C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\express-jwt\node_modules\jsonwebtoken'
+618 verbose stack     at destStatted (C:\Users\My pc\AppData\Roaming\npm\node_modules\npm\lib\install\action\finalize.js:25:7)
+618 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+618 verbose stack
+618 verbose stack Error: EPERM: operation not permitted, rename 'C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\jsonwebtoken-173e3696' -> 'C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\express-jwt\node_modules\jsonwebtoken'
+618 verbose stack     at Error (native)
+619 verbose cwd C:\Users\My pc\Music\BuddyApp\buddyApp
+620 error Windows_NT 6.3.9600
+621 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\My pc\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "express-jwt" "--save"
+622 error node v4.4.3
+623 error npm  v3.8.8
+624 error path C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\jsonwebtoken-173e3696
+625 error code EPERM
+626 error errno -4048
+627 error syscall rename
+628 error Error: EPERM: operation not permitted, rename 'C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\jsonwebtoken-173e3696' -> 'C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\express-jwt\node_modules\jsonwebtoken'
+628 error     at destStatted (C:\Users\My pc\AppData\Roaming\npm\node_modules\npm\lib\install\action\finalize.js:25:7)
+628 error     at FSReqWrap.oncomplete (fs.js:82:15)
+628 error
+628 error Error: EPERM: operation not permitted, rename 'C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\jsonwebtoken-173e3696' -> 'C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\express-jwt\node_modules\jsonwebtoken'
+628 error     at Error (native)
+628 error  { [Error: EPERM: operation not permitted, rename 'C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\.staging\jsonwebtoken-173e3696' -> 'C:\Users\My pc\Music\BuddyApp\buddyApp\node_modules\express-jwt\node_modules\jsonwebtoken'] parent: 'express-jwt' }
+629 error Please try running this command again as root/Administrator.
+630 verbose exit [ -4048, true ]
