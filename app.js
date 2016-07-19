@@ -49,7 +49,7 @@ require('./passport')(app , passport);
 
 require('./routes')(app , passport);
 
-app.listen(process.env.PORT || 8080 , function(){
+app.listen(process.env.PORT, function(){
 
 });
 
