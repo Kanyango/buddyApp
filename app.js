@@ -13,7 +13,7 @@ var app = express();
 
 app.config = config;
 
-app.server = http.createServer(app);
+//app.server = http.createServer(app);
 
 app.db = mongoose.createConnection(config.mongodb.uri);
 app.db.once('open', function(){
@@ -22,7 +22,7 @@ app.db.once('open', function(){
 
 require('./models')(app, mongoose);
 
-app.set('port' , config.port);
+//app.set('port' , config.port);
 
 //middleware
 //app.use(express.static(__dirname + '/client/www'));
@@ -49,10 +49,10 @@ require('./passport')(app , passport);
 
 require('./routes')(app , passport);
 
-app.server.listen(app.config.port , function(){
+app.server.listen(process.env.PORT || 8080 , function(){
 
 });
-console.log('Process ' + process.pid + ' is listening to all incoming requests');
+
 
 
 
