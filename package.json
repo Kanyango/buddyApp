@@ -32,6 +32,7 @@
     "csurf": "^1.x.x",
     "emailjs": "^0.3.x",
     "express": "^4.14.0",
+    "express-jwt" : "^3.4.0",
     "express-unless": "^0.3.0",
     "lodash.set": "^4.0.0",
     "express-session": "^1.14.0",
