@@ -4,7 +4,7 @@
 
 exports.mongodb = {
 	//uri: 'mongodb://127.0.0.1:27017/BuddyAppDB'
-	uri: "mongodb://beanbosho:k3yb0@rd@ds015915.mlab.com:15915/buddyappdb"
+	uri: "mongodb://beanbosho:bmw760li@ds015915.mlab.com:15915/buddyappdb"
 };
 exports.secret = 'b7TY?>m6wl_i/<';
 
