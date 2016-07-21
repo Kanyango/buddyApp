@@ -13,7 +13,7 @@ var app = express();
 
 app.config = config;
 
-//app.server = http.createServer(app);
+app.server = http.createServer(app);
 
 app.db = mongoose.createConnection(config.mongodb.uri);
 app.db.once('open', function(){
@@ -49,7 +49,7 @@ require('./passport')(app , passport);
 
 require('./routes')(app , passport);
 
-app.listen(process.env.PORT || 8080, function(){
+app.server.listen(process.env.PORT || 8080, function(){
 
 });
 
